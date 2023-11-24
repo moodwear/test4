@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #A7CDBD;
+    color: #916b48;
+
+    font-size: 16px;
+    font-weight: 500;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+.avatar {
+    width: 250px;
+    border-radius: 24px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 28px;
+    letter-spacing: 2px;
+    color: #79522e;
+
+}
+
+.card {
+    background-color: #BBE1C3;
+    border-radius: 24px;
+    padding: 10px 15px;
+    margin-top: 30px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.list {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.list li {
+    background-color: #869D7A;
+}
+
+.list li:nth-child(even) {
+    background-color: #BBE1C3;
+}
+
+.list li:hover {
+    background-color: #91785D;
+    color: white;
+}
+
+.table {
+    margin-top: 15px;
+    width: 100%;
+}
+
+.table tr:nth-child(1) td {
+    background-color: #869D7A;
+}
+
+a {
+    color: #8B5D33;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+a:active {
+    color: orange;
+}
+
+a:visited {
+    color: purple; 
+    opacity: 0.5;
+}
+
+.about {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.top {
+    margin-top: 30px;
+}
+
+.contact {
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    margin: 15px 0;
+}
+
+.box {
+    border: 2px solid brown;
+    height: 150px;
+    background-color: #79522e;
+}
+
+.inner {
+    width: 70px;
+    height: 70px;
+    background-color: #869D7A;
+    position: fixed;
+    bottom: 120px;
+    right: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner a {
+    color: white;
+    font-size: 72px;
+}
+
+@media (max-width: 500px) {
+    body {
+        font-size: 12px;
+    }
+    .title {
+        font-size: 18px;
+    }
+
+    .avatar {
+        width: 150px;
+    }
+
+    .inner {
+        display: none;
+    }
+
+}
